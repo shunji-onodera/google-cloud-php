@@ -37,8 +37,9 @@ class Mutation extends \Google\Protobuf\Internal\Message
      *           The key of the entity to delete. The entity may or may not already exist.
      *           Must have a complete key path and must not be reserved/read-only.
      *     @type int|string $base_version
-     *           The version of the entity that this mutation is being applied to. If this
-     *           does not match the current version on the server, the mutation conflicts.
+     *           The version of the entity that this mutation is being applied
+     *           to. If this does not match the current version on the server, the
+     *           mutation conflicts.
      * }
      */
     public function __construct($data = NULL) {
@@ -179,8 +180,9 @@ class Mutation extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * The version of the entity that this mutation is being applied to. If this
-     * does not match the current version on the server, the mutation conflicts.
+     * The version of the entity that this mutation is being applied
+     * to. If this does not match the current version on the server, the
+     * mutation conflicts.
      *
      * Generated from protobuf field <code>int64 base_version = 8;</code>
      * @return int|string
@@ -196,8 +198,9 @@ class Mutation extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * The version of the entity that this mutation is being applied to. If this
-     * does not match the current version on the server, the mutation conflicts.
+     * The version of the entity that this mutation is being applied
+     * to. If this does not match the current version on the server, the
+     * mutation conflicts.
      *
      * Generated from protobuf field <code>int64 base_version = 8;</code>
      * @param int|string $var
